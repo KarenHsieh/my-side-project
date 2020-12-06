@@ -1,0 +1,25 @@
+{
+  "name": "my-side-project",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "node server/app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "firebase": "^8.1.2",
+    "firebase-admin": "^9.4.1",
+    "next": "^10.0.0",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "yarn": "^1.22.10"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.0.4",
+    "postcss": "^8.1.14",
+    "tailwindcss": "^2.0.1"
+  }
+}
