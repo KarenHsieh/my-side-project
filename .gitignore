@@ -32,4 +32,6 @@ yarn-error.log*
 # key
 /key
 
+/server/app.js
+
 package-lock.json
