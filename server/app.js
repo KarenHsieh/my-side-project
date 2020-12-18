@@ -16,11 +16,11 @@ var admin = require("firebase-admin");
 
 var admin = require("firebase-admin");
 
-var serviceAccount = require("your-firebase-key.json");
+var serviceAccount = require("../key/my-side-project-bca31-firebase-adminsdk-afov5-1bab7b5d0f.json");
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
-  databaseURL: "your-url"
+  databaseURL: "https://my-side-project-bca31-default-rtdb.firebaseio.com"
 });
 
 
